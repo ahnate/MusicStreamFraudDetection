@@ -1,11 +1,9 @@
 # Instructions for take home test from Record Union:
 
 ## Use case
-
 The scenario we are trying to solve is detecting fraudulent streaming behavior from a Music Service report. Fraudulent streaming might look like this: a person releases music through Record Union, then automates streaming of the released track(s) in the Music Service using a botnet. Based on usage data received from a Music Service, we want to be able to automatically detect users and releases engaging in fraud.
 
 ## Data
-
 A report consists of three gzip compressed files, containing data for streaming events for Record Union releases on a particular day. The files are stored in the provided Google Cloud Storage bucket. The data is partially based on real data, which is why many fields are hashed or integer-coded, and names are randomly generated. The fields "track_id" and "user_id" are unique identifiers for tracks and users, respectively, in the Music Service.
 
 ## Streams
