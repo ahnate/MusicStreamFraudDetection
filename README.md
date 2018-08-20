@@ -11,19 +11,16 @@ Filename: streams/2017/09/09/allcountries
 (device_type, length, os, timestamp, track_id, user_id)
 One entry in this file corresponds to one stream in the Music Service. The field timestamp refers to the time when the stream was recorded by the Music Service, and length is the duration of the stream in seconds.
 
-## Users
-
+### Users
 Filename: users/2017/09/09
 (access, birth_year, country, gender, user_id)
 One entry for each Music Service user present in the Streams file.
 
-## Tracks
-
+### Tracks
 Filename: tracks/2017/09/09
 (album_artist, album_code, album_name, track_id, track_name) One entry for each track present in the Streams file.
 
-## Expected outcomes
-
+### Expected outcomes
 Version-controlled code
 Visualizations and discussion of the solution
 Technical constraints
@@ -31,7 +28,6 @@ The data needs to be read from, and any output from algorithms written into Goog
 DataFrames in Pandas should be used for data transformations.
 The implementation should use Apache Airflow to orchestrate the processing from data to results.
 
-## Notes
-
+### Notes
 Since this task is open ended, it’s OK to send an email with questions and clarification once per day, excluding weekends.
 The deadline for submission is 26/08/2018.
