@@ -1,4 +1,4 @@
-# Instructions for take home test from Record Union:
+# Record Union Instructions:
 
 ### Use case
 The scenario we are trying to solve is detecting fraudulent streaming behavior from a Music Service report. Fraudulent streaming might look like this: a person releases music through Record Union, then automates streaming of the released track(s) in the Music Service using a botnet. Based on usage data received from a Music Service, we want to be able to automatically detect users and releases engaging in fraud.
@@ -27,7 +27,3 @@ Technical constraints
 The data needs to be read from, and any output from algorithms written into Google Cloud Storage. All code should be versioned with Git.
 DataFrames in Pandas should be used for data transformations.
 The implementation should use Apache Airflow to orchestrate the processing from data to results.
-
-### Notes
-Since this task is open ended, it’s OK to send an email with questions and clarification once per day, excluding weekends.
-The deadline for submission is 26/08/2018.
