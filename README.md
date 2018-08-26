@@ -1,4 +1,4 @@
-# Record Union Instructions:
+# Analysis scope:
 
 ### Use case
 The scenario we are trying to solve is detecting fraudulent streaming behavior from a Music Service report. Fraudulent streaming might look like this: a person releases music through Record Union, then automates streaming of the released track(s) in the Music Service using a botnet. Based on usage data received from a Music Service, we want to be able to automatically detect users and releases engaging in fraud.
